@@ -1,11 +1,19 @@
-.info-section h3::after,
-.content-section h3::after {
-    content: "";
+.info-section h3::after {
+    content: '';
     display: block;
+    width: 100%;
     height: 2px;
-    background: purple;
-    width: 100%; /* Changed from 60px to 100% */
-    margin-top: 10px;
+    background: #000;
+    margin-top: 5px;
 }
 
-/* Add any similar elements here */
+.content-section h3::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    margin-top: 5px;
+}
+
+/* Add any other original styles here */
